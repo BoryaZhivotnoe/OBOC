@@ -14,9 +14,4 @@ docker rm game2
 echo Launching second container...
 docker run -d --name game2 -p 8081:8080 2048-game
 
-echo ____________________________________________
-echo task2
-
-docker-compose up
-echo Launching docker-compose container...
 pause
